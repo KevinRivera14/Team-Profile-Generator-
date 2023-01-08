@@ -2,6 +2,7 @@
 
 # Description 
 - What you are looking at is a Node.JS command line app. 
+- not to mention that this assignment allows you to practice unit test 
 
 this app contains the following 
 - node.js
