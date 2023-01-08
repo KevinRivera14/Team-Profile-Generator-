@@ -1,3 +1,4 @@
+// in this portion of my code, i am importing the manager file // 
 const Manager = require('../lib/Manager');
 
 describe("Manager", () => {

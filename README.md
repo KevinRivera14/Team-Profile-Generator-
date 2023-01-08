@@ -31,6 +31,7 @@ this app contains the following
 # walkThough Video 
 
 # license 
+- still working on that ... standby 
 
 
 Profile Team Generator- created by Kevin Rivera @ 2022 

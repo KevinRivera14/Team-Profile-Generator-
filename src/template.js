@@ -1,4 +1,4 @@
-// create the team
+// in this part of my code this is where i will create my team
 const generateTeam = (team) => {
     // create the manager html
     const generateManager = (manager) => {
@@ -19,7 +19,7 @@ const generateTeam = (team) => {
         `;
     };
   
-    // create the html for engineers
+    // in this portion of my code i will be creating the engineer//
     const generateEngineer = (
       engineer
     ) => {
@@ -40,7 +40,7 @@ const generateTeam = (team) => {
         `;
     };
   
-    // create the html for interns
+    // in this portion of my code i will be creating the intern // 
     const generateIntern = (intern) => {
       return `
   <div class="card employee-card">
@@ -100,7 +100,8 @@ const generateTeam = (team) => {
     return html.join("");
   };
   
-  // export function to generate entire page
+
+  // in this portion of my code i will be exporting a function in order to generate my entire page// 
   module.exports = (team) => {
     return `
   <!DOCTYPE html>
