@@ -19,6 +19,7 @@ this app contains the following
 
 # installation 
 - run npm i *please dont forget* 
+- then run NPM test 
 
 # Usage 
 - Run the application from the command line using the command " Node index" 
