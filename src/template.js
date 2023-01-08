@@ -1,6 +1,6 @@
 // in this part of my code this is where i will create my team
 const generateTeam = (team) => {
-    // create the manager html
+    // in this portion i will create the manager// 
     const generateManager = (manager) => {
       return `
   <div class="card employee-card">
@@ -58,6 +58,8 @@ const generateTeam = (team) => {
   </div>
         `;
     };
+    
+    // i decided to give this some more space to make my code look more cleaner// 
   
     const html = [];
   
