@@ -9,18 +9,18 @@ describe("Engineer", () => {
 
 it("can set Github account via constructor", () => {
   const testValue = "GitHubUser";
-  const engineer = new Engineer("Foo", 1, "test@test.com", testValue);
+  const engineer = new Engineer("Billy", 2, "test@test.com", testValue);
   expect(engineer.github).toBe(testValue);
 });
 
 it("getRole should return Engineer", () => {
   const testValue = "Engineer";
-  const engineer = new Engineer("Foo", 1, "test@test.com", "GitHubUser");
+  const engineer = new Engineer("Alex", 1, "test@test.com", "GitHubUser");
   expect(engineer.getRole()).toBe(testValue);
 });
 
 it("can get Github username via getGithub", () => {
   const testValue = "GitHubUser";
-  const engineer = new Engineer("Foo", 1, "test@test.com", testValue);
+  const engineer = new Engineer("Ronny", 3, "test@test.com", testValue);
   expect(engineer.getGithub()).toBe(testValue);
 });

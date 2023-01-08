@@ -9,12 +9,12 @@ describe("Intern", () => {
 
   it("getRole should return Intern", () => {
     const testValue = "Intern";
-    const intern = new Intern("Timmy", 1, "test@test.com", "UCLA");
+    const intern = new Intern("Timmy", 1, "test@test.com", "San Diego State");
     expect(intern.getRole()).toBe(testValue);
   });
 
   it("can get school via getSchool", () => {
-    const testValue = "UC Berkeley";
+    const testValue = "UC Santa Cruz";
     const intern = new Intern("Alejandro", 1, "test@test.com", testValue);
     expect(intern.getSchool()).toBe(testValue);
   })
