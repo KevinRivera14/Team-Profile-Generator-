@@ -16,7 +16,7 @@ this app contains the following
 - installation 
 - usage 
 - tests
-- license 
+
 
 # installation 
 - run npm i *please dont forget* 
@@ -30,11 +30,10 @@ this app contains the following
 - run npm test in your command line in terminal. 
 
 # walkThough Video 
+![walkthough](https://drive.google.com/file/d/1_xXDBfHKUes1GdEsVSMn2BfiyCSYGrM0/view)
 
-# license 
-- still working on that ... standby 
+
 
 
 Profile Team Generator- created by Kevin Rivera @ 2022 
 
-also im still learning how to code so please be nice to me 

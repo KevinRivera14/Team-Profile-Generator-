@@ -137,3 +137,5 @@ const generateTeam = (team) => {
   </html>
     `;
   }; 
+
+  // it is important to put ending tags // 

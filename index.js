@@ -1,3 +1,4 @@
+// here i am going to declare my constants 
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -16,8 +17,8 @@ const generateTeam = require("./src/template.js");
 
 const teamArray = [];
 
-function runApp() {
-  function createTeam() {
+function activeApp() {
+  function makeTeam() {
     inquirer
       .prompt([
         {
@@ -38,23 +39,23 @@ function runApp() {
         userInput.addEmployeePrompt
         ) {
           case "Manager":
-            addManager();
+            attachManager();
             break;
           case "Engineer":
-            addEngineer();
+            attachEngineer();
             break;
           case "Intern":
-            addIntern();
+            attachIntern();
             break;
 
           default:
-            htmlBuilder();
+            htmlConstructor();
         }
       });
   }
 
   // in this part of my code i am adding a manager 
-  function addManager() {
+  function attachManager() {
     inquirer
       .prompt([
         {
@@ -93,12 +94,12 @@ function runApp() {
           answers.managerOfficeNumber
         );
         teamArray.push(manager);
-        createTeam();
+        makeTeam();
       });
   }
 
   // in this part of the code i am adding a engineer 
-  function addEngineer() {
+  function attachEngineer() {
     inquirer
       .prompt([
         {
@@ -137,12 +138,12 @@ function runApp() {
           answers.engineerGithub
         );
         teamArray.push(engineer);
-        createTeam();
+        makeTeam();
       });
   }
 
   // this part of my code i am adding an intern 
-  function addIntern() {
+  function attachIntern() {
     inquirer
       .prompt([
         {
@@ -181,12 +182,12 @@ function runApp() {
           answers.internSchool
         );
         teamArray.push(intern);
-        createTeam();
+        makeTeam();
       });
   }
 
   // in this portion of my code i am adding HTML
-  function htmlBuilder() {
+  function htmlConstructor() {
     console.log("Team created!");
 
     fs.writeFileSync(
@@ -196,7 +197,7 @@ function runApp() {
     );
   }
 
-  createTeam();
+  makeTeam();
 }
 
-runApp();
+activeApp();
