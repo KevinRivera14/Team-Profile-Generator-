@@ -36,3 +36,5 @@ this app contains the following
 
 
 Profile Team Generator- created by Kevin Rivera @ 2022 
+
+also im still learning how to code so please be nice to me 
