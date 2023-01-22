@@ -62,28 +62,28 @@ function activeApp() {
           type: "input",
           name: "managerName",
           message:
-            "What is the manager's name?",
+            "What is the person's name?",
         },
 
         {
           type: "input",
           name: "managerId",
           message:
-            "What is the manager's employee ID number?",
+            "What is the person's employee ID number?",
         },
 
         {
           type: "input",
           name: "managerEmail",
           message:
-            "What is the manager's email address?",
+            "What is the person's email address?",
         },
 
         {
           type: "input",
           name: "managerOfficeNumber",
           message:
-            "What is the manager's office number?",
+            "What is the person's office number?",
         },
       ])
       .then((answers) => {
@@ -106,28 +106,28 @@ function activeApp() {
           type: "input",
           name: "engineerName",
           message:
-            "What is the engineer's name?",
+            "What is the person's name?",
         },
 
         {
           type: "input",
           name: "engineerId",
           message:
-            "What is the engineer's employee ID number?",
+            "What is the person's employee ID number?",
         },
 
         {
           type: "input",
           name: "engineerEmail",
           message:
-            "What is the engineer's email address?",
+            "What is the person's email address?",
         },
 
         {
           type: "input",
           name: "engineerGithub",
           message:
-            "What is the engineer's GitHub username?",
+            "What is the person's GitHub username?",
         },
       ])
       .then((answers) => {
@@ -150,28 +150,28 @@ function activeApp() {
           type: "input",
           name: "internName",
           message:
-            "What is the intern's name?",
+            "What is this person's name?",
         },
 
         {
           type: "input",
           name: "internId",
           message:
-            "What is the intern's employee ID number?",
+            "What is this person's employee ID number?",
         },
 
         {
           type: "input",
           name: "internEmail",
           message:
-            "What is the intern's email address?",
+            "What is this  person's email address?",
         },
 
         {
           type: "input",
           name: "internSchool",
           message:
-            "What school does the intern attend?",
+            "What school did this person attend?",
         },
       ])
       .then((answers) => {
@@ -187,6 +187,7 @@ function activeApp() {
   }
 
   // in this portion of my code i am adding HTML
+  // also i am adding the make team fuction at the end
   function htmlConstructor() {
     console.log("Team created!");
 
